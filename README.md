@@ -13,8 +13,8 @@ At that point it writes the new object memory address over the old value ( that 
 ### Itering the Linked List
 How does it iters through the linked list?
 It starts from the first object and it reads his pointer value.
-If the pointer value is not `0xFF` it read the pointer value of the object pointed from the first object
-Otherwise it stops
+If the pointer value is `0xFF` it stops, 
+otherwise it read the pointer value of the pointed object and continues the check on that new object
 this continues until it reach one object that has `0xFF` as the pointer
 
 ### Object Structure:
