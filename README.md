@@ -20,5 +20,4 @@ this continues until it reach one object that has `0xFF` as the pointer
 ### Object Structure:
 | Value | Pointer |
 | ----- | ------- |
-|   X   |   0xFF  |
-|       |         |
+| 1337  |   0xFF  |
