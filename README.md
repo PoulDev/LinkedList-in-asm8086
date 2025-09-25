@@ -1,8 +1,6 @@
 # LinkedList-in-asm8086
 Linked List data structure implemented in Assembly 8086
 
-You can read the basic explanation from [PoulDev/LinkedList-in-C](https://github.com/PoulDev/LinkedList-in-C)
-
 ### Allocating a new value (object) to memory
 the `FIND_AVAIBLE_MEMORY` procedure searches for two adjacent memory cells that are empty ( that I'll call `object` ), the first one will be used to store the value, and in the second one will be stored the pointer to the next object
 
